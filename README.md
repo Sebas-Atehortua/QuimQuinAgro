@@ -26,16 +26,33 @@ pip install streamlit pandas plotly
 
 ## Instrucciones para ejecutar
 
-1. Clone este repositorio o descarga el código.  
-2. Coloque el archivo `contabilidad.db` en la misma carpeta del archivo `caja_asociadosQQA.py`.  
-3. Abra una terminal o consola y navega a la carpeta del proyecto.  
-4. Ejecute el dashboard con:
+Observaciones del paso a paso
 
-streamlit run caja_asociadosQQA.py
+1.	Descargar los archivos y almacenarlos en una carpeta:
 
+![1](https://i.ibb.co/k68q9mGS/Captura-de-pantalla-2025-10-15-113451.png)
 
-5. Interactúe con los formularios para seleccionar fechas, socios u otros filtros deseados.  
-6. Visualice los gráficos y tablas según la consulta seleccionada en cada pestaña.
+![https://i.ibb.co/jvMdR0zs/Captura-de-pantalla-2025-10-15-075309.png](https://i.ibb.co/V0qW7Jh3/Captura-de-pantalla-2025-10-15-113523.png)
+
+2.	Usando el programa Anaconda y Spyder, visualice el código caja_asociados_QQA.py y ejecute el Streamlit usando su comando mediante la ventana de prompt.
+
+![3](https://i.ibb.co/0VmvBG0x/Captura-de-pantalla-2025-10-15-064842.png)
+
+3.	Se generará un enlace local que le permitirá visualizar el tablero:
+
+![4](https://i.ibb.co/5hgpLXDX/Captura-de-pantalla-2025-10-15-113907.png)
+
+4.	El tablero es interactivo en sus tres pestañas, y le permitirá obtener un panorama financiero de la caja, de los socios y su comportamiento. Usted debe filtrar la información usando los parámetros de consulta al lado izquierdo y esta conexión permanente con la base de datos le permitirá realizar cuanta consulta requiera.
+
+![5](https://i.ibb.co/fYTcr677/Captura-de-pantalla-2025-10-15-114103.png)
+
+5.	Cada sección del tablero incluye conclusiones dinámicas del comportamiento para el periodo y asociado seleccionado, por ejemplo:
+
+![6](https://i.ibb.co/fVwz5VWn/Captura-de-pantalla-2025-10-15-114127.png)
+
+6.	Como adicional, es posible conectarse al tablero por medio de una conexión del repositorio y Streamlit Cloud. Para ello, debe ingresar a https://share.streamlit.io/deploy, iniciar la conexión y generar una aplicación con destino a la aplicación, como aparece en el ejemplo.
+ 
+![7](https://i.ibb.co/NgSbF6Dn/Captura-de-pantalla-2025-10-15-114425.png)
 
 ---
 
@@ -53,6 +70,7 @@ streamlit run caja_asociadosQQA.py
 Cada pestaña del dashboard incluye un análisis específico para apoyar la toma de decisiones. Se observa una tendencia positiva o negativa en los flujos de caja, concentración en costos y aportes de los socios, que sirven para recomendar estrategias financieras.
 
 ---
+
 
 
 
